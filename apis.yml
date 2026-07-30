@@ -1,8 +1,26 @@
 aid: katango
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/katango.png
 name: Katango
-description: 'Katango is a company surfaced as a portfolio company of kleiner-perkins and added to the
-  API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Katango was a Palo Alto, California mobile software startup whose smartphone app
+  automatically organized a user''s phone and social contacts into intelligent groups (circles) using
+  clustering algorithms, so people could share and message the right subset of friends without manually
+  building lists. The company was backed by Kleiner Perkins Caufield & Byers (through its sFund social
+  initiative) and was acquired by Google in November 2011, with the team joining Google to work on the
+  Google+ Circles experience. The standalone product was discontinued after the acquisition. This
+  API Evangelist profile was created as a Kleiner Perkins portfolio lead; enrichment confirms the
+  company is defunct with no public developer surface, API, or documentation. The katango.com domain now
+  resolves to Google-owned infrastructure with no live site.'
 url: https://raw.githubusercontent.com/api-evangelist/katango/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +28,32 @@ x-backed-by:
 - kleiner-perkins
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-reason: acquired-by-google-2011
+x-acquired-by: google
+x-enrichment-outcome: 'no-developer-surface: no API, docs, SDKs, MCP, or live site; katango.com resolves
+  to Google-owned IP (142.250.191.14) with no valid TLS certificate for the host.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Mobile
+- Social
+- Contacts
+- Defunct
+- Acquired
+- Google
+- Kleiner Perkins
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
