@@ -33,7 +33,7 @@ x-status-reason: acquired-by-google-2011
 x-acquired-by: google
 x-enrichment-outcome: 'no-developer-surface: no API, docs, SDKs, MCP, or live site; katango.com resolves
   to Google-owned IP (142.250.191.14) with no valid TLS certificate for the host.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
